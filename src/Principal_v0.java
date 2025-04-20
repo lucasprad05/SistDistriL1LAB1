@@ -1,8 +1,12 @@
 
 //--------------------------------------------
 /**
-LUCAS PRADO e ANA CAROLINA
-SISTEMAS DISTRIBUIDOS 25.1
+ * Laboratorio 2 de Sistemas Distribuidos
+ * Sistemas Distribuídos - SDCO8A- 2025/1
+ * Professor: Lucio Agostinho  Rocha
+ *
+ * Ana Carolina Ribeiro Miranda - 2208407
+ * Lucas Castilho Pinto Prado - 2367980
  */
 //--------------------------------------------
 
@@ -19,7 +23,7 @@ import java.util.Set;
 
 public class Principal_v0 {
 
-	public final static Path path = Paths			
+	public final static Path path = Paths
 			.get("src/fortune-br.txt");
 	private int NUM_FORTUNES = 0;
 
@@ -44,7 +48,7 @@ public class Principal_v0 {
 
 				}// fim while
 
-				System.out.println(lineCount);
+				//System.out.println(lineCount);
 			} catch (IOException e) {
 				System.out.println("SHOW: Excecao na leitura do arquivo.");
 			}
@@ -76,9 +80,9 @@ public class Principal_v0 {
 					}
 
 					hm.put(lineCount, fortune.toString());
-					System.out.println(fortune.toString());
+					//System.out.println(fortune.toString());
 
-					System.out.println(lineCount);
+					//System.out.println(lineCount);
 				}// fim while
 
 			} catch (IOException e) {
